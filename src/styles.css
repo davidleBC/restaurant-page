@@ -1,0 +1,25 @@
+.header {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+} 
+
+.mainimg {
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tagline {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: lightgray;
+}
