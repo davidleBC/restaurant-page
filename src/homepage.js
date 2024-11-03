@@ -1,5 +1,7 @@
 import homeimg from "../image/main.jpg";
 
+export const createHome = () => {
+    
 // Homepage image
 const image = document.createElement("img");
 image.src = homeimg;
@@ -17,6 +19,9 @@ descript.classList.add("tagline");
 
 // Search and append to div#content
 const el = document.querySelector("div#content");
-el.appendChild(image);
-el.appendChild(headline);
-el.appendChild(descript);
+
+
+    el.appendChild(image);
+    el.appendChild(headline);
+    el.appendChild(descript);
+}
